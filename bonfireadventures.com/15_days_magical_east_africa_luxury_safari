@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Travel - Tour Travel</title>
+<!--== META TAGS ==-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!-- FAV ICON -->
+<link rel="shortcut icon" href="images/fav.png">
+<!-- GOOGLE FONTS -->
+<link href="https://fonts.googleapis.com/css?family=Poppins%7CQuicksand:400,500,700" rel="stylesheet">
+<!-- FONT-AWESOME ICON CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<!--== ALL CSS FILES ==-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/materialize.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/mob.css">
+<link rel="stylesheet" href="css/animate.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<script type="text/javascript">
+//window.location.href = "packages";
+</script>
+<!--Start of Zendesk Chat Script-->
+<script type="text/javascript">
+window.$zopim || (function(d, s) {
+    var z = $zopim = function(c) {
+            z._.push(c)
+        },
+        $ = z.s =
+        d.createElement(s),
+        e = d.getElementsByTagName(s)[0];
+    z.set = function(o) {
+        z.set.
+        _.push(o)
+    };
+    z._ = [];
+    z.set._ = [];
+    $.async = !0;
+    $.setAttribute('charset', 'utf-8');
+    $.src = 'https://v2.zopim.com/?2pKfOuu6mH3V6SOc0qi5XaMthYba3ues';
+    z.t = +new Date;
+    $.
+    type = 'text/javascript';
+    e.parentNode.insertBefore($, e)
+})(document, 'script');
+</script>
+<!--End of Zendesk Chat Script-->
+<style type="text/css">
+.search-top {
+
+    background: #1C2212;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(90, 95, 39), rgb(87, 92, 35), rgb(231, 143, 31));
+    /**background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(162, 158, 40), rgb(54, 70, 45), rgb(242, 235, 37));**/
+    /**background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(202, 106, 51), rgb(54, 70, 45), rgb(118, 119, 36));**/
+    /**background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(202, 106, 51), rgb(54, 70, 45), rgb(165, 91, 43)); */
+}
+
+.ed-com-t1-right ul li:nth-child(1) a,
+.tourz-sear-btn,
+.link-btn {
+    background: linear-gradient(to bottom, #e78f22, #f36f21);
+}
+
+.slid-cap a {
+    background: #e78f22;
+}
+
+.spe-title h2 span {
+    color: #e78f22;
+}
+
+.ed-top {
+    background: #f4f4f3;
+}
+
+.ed-com-t1-left ul li a {
+    color: #313d20;
+}
+
+.main-menu ul li a:hover {
+    color: #e78f22;
+}
+
+.main-menu ul li a::after {
+
+    color: #e78f22;
+    background-color: #e78f22;
+}
+
+.inner_banner h2 {
+    color: #e78f22;
+}
+
+.banner_book_1 ul li a {
+    background: none;
+}
+
+.banner_book_1 ul li .featured {
+    background: linear-gradient(to bottom, #e78f22, #c95b0f);
+}
+
+.ed-com-t1-right ul li:nth-child(2) a {
+    background: #323e21;
+}
+
+.wed-logo a img {
+    width: 150px;
+    padding: 0px 0px;
+}
+
+.affix {
+    height: 90px;
+}
+
+.main-menu {
+    margin-top: 15px;
+}
+
+.tips h3 {
+    background: #323e21;
+}
+
+.tourz-sear-btn {
+    text-align: center;
+}
+
+.disco a {
+    background: #e78f22;
+    background: linear-gradient(to bottom, #e78f22, #f37932);
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+.ed-top {
+    background: #7d563f;
+}
+
+.ed-com-t1-left ul li a {
+    color: #fff;
+}
+
+.ed-com-t1-social ul li a i {
+    color: #fff;
+}
+
+.hot-list-p3-2 {
+    font-size: 23px;
+}
+
+.ho-hot-pri {
+    font-size: 25px;
+}
+
+.hot-page2-hli-1::before {
+    background: linear-gradient(to top, rgba(236, 197, 105, 0.36) 25%, rgba(0, 0, 0, 0.08) 74%);
+}
+
+.tb-space {
+    padding: 50px 0px;
+}
+
+
+.responsive-table,
+.responsive-table tr,
+.responsive-table td,
+.responsive-table th {
+    border: 1px solid #e6e6e6
+}
+
+.db-2-main-com-table tr td,
+.db-2-main-com-table tr th {
+    padding: 5px 10px;
+}
+
+.db-2-main-com-table .link-btn {
+    padding: 3px 15px;
+}
+
+.trav-list-bod a h3 {
+    color: #ee7a21;
+}
+
+.hotel-list-score {
+    background-color: #ee7a21;
+}
+
+.hot-list-p3-2 {
+    color: #ee7a21;
+}
+
+.expandable {
+    display: none;
+}
+
+.fixme {  text-align: center; width: 100%; }
+.overlay-on-slider
+{
+    position:absolute;background-color:#403935;width:100%;height:700px;left: 0;top: 0;opacity: 0.4;
+}
+.to-ho-hotel-con-1 img {
+  width: 100%;
+  height: 220px;
+}
+</style></head>
+
+
+<body>
+     <!-- Preloader -->
+ <div id="preloader">
+     <div id="status">&nbsp;</div>
+ </div>
+
+ <!-- MOBILE MENU -->
+ <section>
+     <div class="ed-mob-menu">
+         <div class="ed-mob-menu-con">
+             <div class="ed-mm-left">
+                 <div class="wed-logo">
+                     <a href="index.html"><img  src="images/logo.png" alt="" />
+                     </a>
+                 </div>
+             </div>
+             <div class="ed-mm-right">
+                 <div class="ed-mm-menu">
+                     <a href="15_days_magical_east_africa_luxury_safari#!" class="ed-micon"><i class="fa fa-bars"></i></a>
+                     <div class="ed-mm-inn">
+                         <a href="15_days_magical_east_africa_luxury_safari#!" class="ed-mi-close"><i class="fa fa-times"></i></a>
+                         <h4><a href="index.html" style="text-decoration: none !important;">Home</a></h4>
+                         <h4>Safaris Packages</h4>
+                         <ul>
+                                                          <li><a
+                                     href="country/Kenya?package_category=wildlife">Kenya</a>
+                             </li>
+                                                          <li><a
+                                     href="country/Tanzania?package_category=wildlife">Tanzania</a>
+                             </li>
+                                                          <li><a
+                                     href="country/Uganda?package_category=wildlife">Uganda</a>
+                             </li>
+                                                      </ul>
+                         <h4>Themed Holidays</h4>
+                         <ul>
+                                                          <li><a
+                                     href="package_category/wildlife">Wildlife/Safari Tourism Package</a>
+                             </li>
+                                                          <li><a
+                                     href="package_category/honeymoon">Honeymoon Tourism Package</a>
+                             </li>
+                                                          <li><a
+                                     href="package_category/valentines_">Valentines </a>
+                             </li>
+                                                          <li><a
+                                     href="package_category/cruise_packages">Cruise Packages</a>
+                             </li>
+                                                          <li><a
+                                     href="package_category/christmas_package">Christmas Package</a>
+                             </li>
+                                                      </ul>
+                         <h4>Corporates</h4>
+                         <ul>
+                                                          <li><a href="packages">Corporate Conferences </a></li>
+                                                      </ul>
+                         <h4>Bush Destinations</h4>
+                         <ul>
+                                                          <li><a href="destination/samburu">Samburu</a>
+                             </li>
+                                                          <li><a href="destination/maasai_mara">Maasai Mara</a>
+                             </li>
+                                                          <li><a href="destination/amboseli">Amboseli</a>
+                             </li>
+                                                          <li><a href="destination/tsavo">Tsavo</a>
+                             </li>
+                                                      </ul>
+                         <h4>Weekend Getaways</h4>
+                         <ul>
+                                                          <li><a href="destination/naivasha">Naivasha</a>
+                             </li>
+                                                          <li><a href="destination/nakuru">Nakuru</a>
+                             </li>
+                                                          <li><a href="destination/mt_kenya">Mt Kenya</a>
+                             </li>
+                                                      </ul>
+                         <h4>Beach Destinations</h4>
+                         <ul>
+                                                          <li><a href="destination/mombasa_north_coast">Mombasa North Coast</a>
+                             </li>
+                                                          <li><a href="destination/diani_ukunda">Diani/Ukunda</a>
+                             </li>
+                                                          <li><a href="destination/malindi_watamu">Malindi/Watamu</a>
+                             </li>
+                                                          <li><a href="destination/lamu">Lamu</a>
+                             </li>
+                                                      </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+ <!--HEADER SECTION-->
+ <section>
+     <!-- TOP BAR -->
+     <div class="ed-top">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="ed-com-t1-left">
+                         <ul>
+                             <li><a href="15_days_magical_east_africa_luxury_safari#">Bonfire Adventures, Kenya's leading Tour & Travel Company.</a>
+                             </li>
+                             <li><a href="15_days_magical_east_africa_luxury_safari#">Phone: +254 729-836-336</a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="ed-com-t1-right">
+                         <ul>
+                             <li><a href="contact">Contact</a>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="ed-com-t1-social">
+                         <ul>
+                             <li><a target="_blank" href="https://www.facebook.com/bonfireadventures/"><i
+                                         class="fa fa-facebook" aria-hidden="true"></i></a>
+                             </li>
+                             <li><a target="_blank"
+                                     href="https://twitter.com/BonfireSafaris?t=8l8OIJ_FL65mbX9UroBcGg&s=09"><i
+                                         class="fa fa-twitter" aria-hidden="true"></i></a>
+                             </li>
+                             <li><a target="_blank"
+                                     href="https://instagram.com/bonfireadventures?utm_medium=copy_link"><i
+                                         class="fa fa-instagram" aria-hidden="true"></i></a>
+                             </li>
+
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <!-- LOGO AND MENU SECTION -->
+     <div class="top-logo" style="border-bottom: 2px solid #e28e24;padding:10px 0px;" data-spy="affix" data-offset-top="250">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="wed-logo">
+                         <a href="index.html"><img src="images/logo.png" alt="" />
+                         </a>
+                     </div>
+                     <div class="main-menu">
+                         <ul>
+                             <li><a href="index.html">Home</a>
+                             </li>
+
+                             <li class="destinations-menu">
+                                 <a href="packages" class="mm-arr">Destinations
+
+                                 </a>
+                                 <!-- MEGA MENU 1 -->
+                                 <div class="mm-pos">
+                                     <div class="destinations-mm m-menu">
+                                         <div class="m-menu-inn">
+                                             <div class="mm1-com mm1-com-custom mm1-s1">
+                                                 <b>Africa</b><br />
+                                                 <ul>
+
+                                                     <li><a href="destination_country/Egypt">Egypt</a>
+                    </li><li><a href="destination_country/Kenya">Kenya</a>
+                    </li><li><a href="destination_country/Mauritius">Mauritius</a>
+                    </li><li><a href="destination_country/Seychelles">Seychelles</a>
+                    </li><li><a href="destination_country/South&#32;Africa">South Africa</a>
+                    </li><li><a href="destination_country/Tanzania">Tanzania</a>
+                    </li><li><a href="destination_country/Zimbabwe">Zimbabwe</a>
+                    </li>
+                                                 </ul>
+                                             </div>
+                                             <div class="mm1-com mm1-com-custom mm1-s2">
+                                                 <b>Middle East</b><br />
+                                                 <ul>
+                                                     <li><a href="destination_country/China">China</a>
+                    </li><li><a href="destination_country/Indonesia">Indonesia</a>
+                    </li><li><a href="destination_country/Pakistan">Pakistan</a>
+                    </li><li><a href="destination_country/Qatar">Qatar</a>
+                    </li><li><a href="destination_country/United&#32;Arab&#32;Emirates">UAE(Dubai)</a>
+                    </li>                                                 </ul>
+                                             </div>
+                                             <div class="mm1-com mm1-com-custom mm1-s4">
+                                                 <b>Europe</b><br />
+                                                 <ul>
+                                                     <li><a href="destination_country/France">France</a>
+                    </li>                                                 </ul>
+                                             </div>
+                                             
+                                         </div>
+                                     </div>
+                                 </div>
+                             </li>
+
+                             <li class="safaris-menu">
+                                 <a href="package_category/private_wildlife_safaris" class="mm-arr">Safaris
+                                     Packages</a>
+                                 <!-- MEGA MENU 1 -->
+                                 <div class="mm-pos">
+                                     <div class="safaris-mm m-menu">
+                                         <div class="m-menu-inn">
+
+                                             <div class="mm2-com mm1-com mm1-s1">
+                                                <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="packages/budget-safari">
+                                                         <img src="https://tour.epesicloud.com/app/storage/uploads/37/1675407303_6_masai-mara-national-reserve.jpg"
+                                                             alt="Budget Safaris" />
+                                                         <span>Budget Safaris</span>
+                                                     </a>
+                                                 </div>
+                                                 <p></p>
+                                                 <a href="packages/budget-safari"
+                                                     class="mm-r-m-btn">View
+                                                     Packages</a>
+                                             </div>
+
+
+                                             <div class="mm2-com mm1-com mm1-s1">
+                                                <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="packages/midrange-safari">
+                                                         <img src="https://tour.epesicloud.com/app/storage/uploads/37/1675407009_66_Tanzania1.jpg"
+                                                             alt="Mid-Range Safaris" />
+                                                         <span>Mid-Range Safaris</span>
+                                                     </a>
+                                                 </div>
+                                                 <p></p>
+                                                 <a href="packages/midrange-safari"
+                                                     class="mm-r-m-btn">View
+                                                     Packages</a>
+                                             </div>
+
+
+                                             <div class="mm2-com mm1-com mm1-s1">
+                                                <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="packages/luxury-safari">
+                                                         <img src="https://tour.epesicloud.com/app/storage/uploads/37/1675406251_21_Tourism-in-Uganda.jpg"
+                                                             alt="Luxury Safaris" />
+                                                         <span>Luxury Safaris</span>
+                                                     </a>
+                                                 </div>
+                                                 <p></p>
+                                                 <a href="packages/luxury-safari"
+                                                     class="mm-r-m-btn">View
+                                                     Packages</a>
+                                             </div>
+
+
+                                             
+
+                                         </div>
+                                     </div>
+                                 </div>
+                             </li>
+
+                             <li class="themed-holidays-menu">
+                                 <a href="packages" class="mm-arr">Themed Holidays</a>
+                                 <!-- MEGA MENU 1 -->
+                                 <div class="mm-pos">
+                                     <div class="themed-holidays-mm m-menu">
+                                         <div class="row">
+                                                                                          <div class="col-md-2">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="package_category/wildlife">
+                                                         <img style="width: 100%;height: 140px"
+                                                             src="https://tour.epesicloud.com/app/storage/uploads/37/1674110151_39_wildlife-3233525_1280.jpg"
+                                                             alt="Wildlife/Safari Tourism Package" />
+                                                         <span
+                                                             style="font-size: 12px;">Wildlife/Safari Tourism Package</span>
+                                                     </a>
+                                                 </div>
+                                                 <p></p>
+                                                 <a href="package_category/wildlife"
+                                                     class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                                                                          <div class="col-md-2">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="package_category/honeymoon">
+                                                         <img style="width: 100%;height: 140px"
+                                                             src="https://tour.epesicloud.com/app/storage/uploads/37/1674111183_85_bridal-4480907__480.jpg"
+                                                             alt="Honeymoon Tourism Package" />
+                                                         <span
+                                                             style="font-size: 12px;">Honeymoon Tourism Package</span>
+                                                     </a>
+                                                 </div>
+                                                 <p>Honey Moon Packages </p>
+                                                 <a href="package_category/honeymoon"
+                                                     class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                                                                          <div class="col-md-2">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="package_category/valentines_">
+                                                         <img style="width: 100%;height: 140px"
+                                                             src="https://tour.epesicloud.com/app/storage/uploads/37/1674546864_84_Valentines.jpg"
+                                                             alt="Valentines " />
+                                                         <span
+                                                             style="font-size: 12px;">Valentines </span>
+                                                     </a>
+                                                 </div>
+                                                 <p>Valentines Day</p>
+                                                 <a href="package_category/valentines_"
+                                                     class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                                                                          <div class="col-md-2">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="package_category/cruise_packages">
+                                                         <img style="width: 100%;height: 140px"
+                                                             src="https://tour.epesicloud.com/app/storage/uploads/37/1674560037_90_Cruise_ship.jpg"
+                                                             alt="Cruise Packages" />
+                                                         <span
+                                                             style="font-size: 12px;">Cruise Packages</span>
+                                                     </a>
+                                                 </div>
+                                                 <p>Best of Cruise Packages </p>
+                                                 <a href="package_category/cruise_packages"
+                                                     class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                                                                          <div class="col-md-2">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay"
+                                                         href="package_category/christmas_package">
+                                                         <img style="width: 100%;height: 140px"
+                                                             src="images/package/1.jpg"
+                                                             alt="Christmas Package" />
+                                                         <span
+                                                             style="font-size: 12px;">Christmas Package</span>
+                                                     </a>
+                                                 </div>
+                                                 <p></p>
+                                                 <a href="package_category/christmas_package"
+                                                     class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                                                                      </div>
+                                     </div>
+                                 </div>
+                             </li>
+
+
+                             <li class="corporates-menu">
+                                 <a href="packages" class="mm-arr">Corporates</a>
+                                 <!-- MEGA MENU 1 -->
+                                 <div class="mm-pos">
+                                     <div class="corporates-mm m-menu">
+                                         <div class="m-menu-inn">
+                                                                                          <div class="mm2-com mm1-com mm1-s1">
+                                                 <div class="ed-course-in">
+                                                     <a class="course-overlay" href="packages">
+                                                         <img src="https://tour.epesicloud.com/app/storage/uploads/37/1675406251_21_Tourism-in-Uganda.jpg"
+                                                             alt="">
+                                                         <span>Corporate Conferences </span>
+                                                     </a>
+                                                 </div>
+                                                 <p>Conference  Packages </p>
+                                                 <a href="packages" class="mm-r-m-btn">View Packages</a>
+                                             </div>
+                                             
+
+                                         </div>
+                                     </div>
+                                 </div>
+                             </li>
+
+                             <li class="local-menu">
+                                 <a href="packages" class="mm-arr">Local Packages</a>
+                                 <!-- MEGA MENU 1 -->
+                                 <div class="mm-pos">
+                                     <div class="local-mm m-menu">
+                                         <div class="m-menu-inn">
+                                             <div class="mm1-com mm1-s2">
+                                                 <b>Beach Packages</b>
+                                                 <ul>
+                                                                                                          <li><a
+                                                             href="destination/mombasa_north_coast">Mombasa North Coast</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/diani_ukunda">Diani/Ukunda</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/malindi_watamu">Malindi/Watamu</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/lamu">Lamu</a>
+                                                     </li>
+                                                                                                      </ul>
+                                             </div>
+                                             <div class="mm1-com mm1-s3">
+                                                 <b>Bush Packages</b>
+                                                 <ul>
+                                                                                                          <li><a
+                                                             href="destination/samburu">Samburu</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/maasai_mara">Maasai Mara</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/amboseli">Amboseli</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/tsavo">Tsavo</a>
+                                                     </li>
+                                                     
+
+                                                 </ul>
+                                             </div>
+                                             <div class="mm1-com mm1-s4">
+                                                 <b>Weekend Getaways</b>
+                                                 <ul>                                                     <li><a
+                                                             href="destination/naivasha">Naivasha</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/nakuru">Nakuru</a>
+                                                     </li>
+                                                                                                          <li><a
+                                                             href="destination/mt_kenya">Mt Kenya</a>
+                                                     </li>
+                                                                                                      </ul>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </li>
+
+                             <!--<li><a class='dropdown-button ed-sub-menu' href='#' data-activates='dropdown1'>Courses</a></li>-->
+                             <li><a href="blog">Blog</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <!-- TOP SEARCH BOX -->
+     <div class="search-top">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="search-form">
+                         <form action="packages" method="GET">
+                             <div class="row">
+                                 <div class="col-md-10 col-10">
+                                     <div class="input-field">
+                                         <input value=""
+                                             style="border: 0px;height: 45px;border-radius: 2px;padding: 0px 2px 0px 2px;box-sizing: border-box;background-size: 17px;background-position-x: 10px;"
+                                             type="text" name="keyword">
+                                         <label for="select-search" class="search-hotel-type">Travels, sight seeings
+                                         </label>
+                                     </div>
+                                 </div>
+                                 <div class="col-md-2 col-2">
+                                     <div class="input-field">
+                                         <input type="submit" value="search"
+                                             class="waves-effect waves-light tourz-sear-btn">
+                                     </div>
+                                 </div>
+                             </div>
+
+                         </form>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- END TOP SEARCH BOX -->
+ </section>
+  <!--END HEADER SECTION-->
+    <!--====== BANNER ==========-->
+    <section>
+        <div class="rows inner_banner inner_banner_4"
+            style="background: url('https://tour.epesicloud.com/') no-repeat center center;padding: 30px 0px 40px 0px;background-size:cover !important;">
+            
+            <div class="container">
+                <h2><span>Kenya Tanzania  -</span> Kenya/Tanzania Bush Safaris </h2>
+                <ul>
+                    <li><a href="15_days_magical_east_africa_luxury_safari#inner-page-title">Home</a>
+                    </li>
+                    <li><i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+                    <li><a href="15_days_magical_east_africa_luxury_safari#inner-page-title" class="bread-acti">Kenya Tanzania </a>
+                    </li>
+                </ul>
+                <p>Book travel packages and enjoy your holidays with distinctive experience</p>
+            </div>
+        </div>
+    </section>
+    <!--====== TOUR DETAILS - BOOKING ==========-->
+    <section>
+        <div class="rows banner_book fixme" id="inner-page-title">
+            <div class="container">
+                <div class="banner_book_1">
+                    <ul>
+                        <li class="dl1" style="width: 15%;"><a href="15_days_magical_east_africa_luxury_safari#overview">Overview</a></li>
+                        <li class="dl1" style="width: 15%;"><a href="15_days_magical_east_africa_luxury_safari#itinerary">Itinerary</a></li>
+                        <li class="dl1" style="width: 15%;"><a href="15_days_magical_east_africa_luxury_safari#rates">Pricing</a></li>
+                        <li class="dl1" style="width: 15%;"><a href="15_days_magical_east_africa_luxury_safari#special_notes">Special Notes</a></li>
+                        <li class="dl1" style="width: 15%;"><a href="15_days_magical_east_africa_luxury_safari#reviews">Reviews</a></li>                        
+                        <li class="dl1" style="width: 20%;"><a href="15_days_magical_east_africa_luxury_safari#rates" class="featured">Available Hotels</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--====== TOUR DETAILS ==========-->
+    <section>
+        <div class="rows inn-page-bg com-colo">
+            <div class="container inn-page-con-bg tb-space">
+                <div class="col-md-8">
+                    <!--====== TOUR TITLE ==========-->
+                    <div id="overview" class="tour_head">
+                        <h2>15 DAYS MAGICAL EAST AFRICA LUXURY SAFARI <span class="tour_star"><i class="fa fa-star"
+                                    aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                    class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                    aria-hidden="true"></i><i class="fa fa-star-half-o"
+                                    aria-hidden="true"></i></span><span class="tour_rat">4.5</span></h2>
+                    </div>
+                    <!--====== TOUR DESCRIPTION ==========-->
+                    <div class="tour_head1">
+                        <h3>Description</h3>
+                        <p></p>
+                    </div>
+                    <!--====== ROOMS: HOTEL BOOKING ==========-->
+                    <div  id="photos" class="tour_head1 hotel-book-room">
+                        <h3>Photo Gallery</h3>
+                        <div id="myCarousel1" class="carousel slide" data-ride="carousel"
+                            style="height: 500px !important;">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators carousel-indicators-1">
+                                <li data-target="#myCarousel1" data-slide-to="0"><img
+                                        src="https://tour.epesicloud.com/"
+                                        alt="15 DAYS MAGICAL EAST AFRICA LUXURY SAFARI">
+                                </li>
+                                                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner carousel-inner1" role="listbox">
+                                <div class="item active"> <img src="https://tour.epesicloud.com/"
+                                        alt="Chania" width="460" height="345"> </div>
+
+                                                            </div>
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="15_days_magical_east_africa_luxury_safari#myCarousel1" role="button" data-slide="prev">
+                                <span><i class="fa fa-angle-left hotel-gal-arr" aria-hidden="true"></i></span> </a>
+                            <a class="right carousel-control" href="15_days_magical_east_africa_luxury_safari#myCarousel1" role="button" data-slide="next">
+                                <span><i class="fa fa-angle-right hotel-gal-arr hotel-gal-arr1"
+                                        aria-hidden="true"></i></span> </a>
+                        </div>
+                    </div>
+
+                    <!--====== ABOUT THE TOUR ==========-->
+                    <div  id="special_notes" class="tour_head1">
+                        <h3>About The Tour</h3>
+                        <table>
+                            <tr>
+                                <th class="event-res">Inclusions</th>
+                                <th class="event-res">Exclusions</th>
+                                <th class="event-res"></th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                                                                <li>Soft and selected alcoholic drinks at Kubu Kubu Tented Lodge</li>
+                                                                                <li>Soft and selected alcoholic drinks at Neptune Ngorongoro</li>
+                                                                                <li>Soft drinks, local beers and selected house wines at Elewana  Tortilis Camp</li>
+                                                                                <li>Soft drinks, local beers and selected house wines at Elewana Sand River Camp</li>
+                                                                                <li> Government statutory taxes</li>
+                                                                                <li>Unlimited mileage on game viewing drives</li>
+                                                                                <li>Transport in a custom-designed 4x4 Safari Land Cruiser</li>
+                                                                                <li>Services of a professional English-speaking guide driver</li>
+                                                                                <li>Full board accommodation while on safari (breakfast, lunch and dinner)</li>
+                                                                                <li>Bed and breakfast accommodation in Nairobi</li>
+                                                                                <li>Arrival and departure Airport transfers</li>
+                                                                                <li>Park entrance fees</li>
+                                                                            </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                                                                <li>Any item not mentioned as included in the safari package</li>
+                                                                                <li>Travel insurance</li>
+                                                                                <li>Laundry and telephone expenses</li>
+                                                                                <li>Soft and alcoholic drinks</li>
+                                                                                <li>Additional sight-seeing or deviation from the safari itinerary</li>
+                                                                                <li>International flights and visa fees</li>
+                                                                            </ul>
+                                </td>
+                                <td colspan="2"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    
+                    
+                    
+                    
+
+
+                    <div id="rates">
+                                                <!--====== PACKAGE RATE : TRANSPORT VARIATIONS ==========-->
+<div id="available_rates" class="tour_head1 row">
+    <h3>Rates</h3>
+
+    <div style="width:100% !important;">
+        <div class="db-2-com db-2-main">
+            <h4>Available Rates</h4>
+            <div class="db-2-main-com db-2-main-com-table">
+                <table class="responsive-table">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Valid Until</th>
+                                                                                                                <!--<th>Single Cost</th>-->
+                            <th>Two Pax</th>
+                            <th>Three Pax</th>
+                            <th>Four Pax </th>
+                            <th>Five Pax </th>
+                            <th>Six Pax </th>
+                            <th>SRS Cost </th>
+                                                                                    <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                                        <tr>
+                            <td>1</td>
+                                                        <td>2023-03-31</td>
+                                                                                    <!--<td>0                                                </td>-->
+                            <td>10,927.00                            </td>
+                            <td>
